@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+                
+</head>
+<body>
+    <div class="main">
+        <h1>COURSE REGISTRATION FORM</h1>
+    <form action="">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <table>
+            <tr>
+                <td><label for="" >First Name</label></td>
+                <td>
+                    <input type="text" placeholder="Ex: Alen" required>
+                    <pre> Enter your name </pre>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Surname</label></td>
+                <td><input type="text" name="" id="" placeholder="Ex: S" optional>
+                    <pre> Enter surname name </pre>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Moblie Number</label></td>
+                <td><input type="number" name="" id="" placeholder="Ex:1234567890" required>
+                    <pre> Enter Moblie number </pre>
+                </td> 
+            </tr>
+            <tr>
+                <td><label for="">Email</label></td>
+                <td><input type="email" name="" id="" placeholder="Ex:abc123@gmail.com" required>
+                    <pre> Enter your mail </pre>
+                    <img src="/check-mark.png" alt="" id="valid">
+                    <img src="/shape.png" alt="" id="invalid">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Password</label></td>
+                <td><input type="password" name="" id="" placeholder="Min 6 characters" minlength="6" required>
+                    <pre> Enter password </pre>
+                    <img src="/check-mark.png" alt="" id="valid">
+                    <img src="/shape.png" alt="" id="invalid">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Confirm Password</label></td>
+                <td><input type="text" name="" id="" placeholder="Re_enter your password" required>
+                    <pre> Re_Enter password </pre>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Date Of Birth</label></td>
+                <td><input type="date" name="" id="" required>
+                    <pre> Enter your DOB </pre>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Age</label></td>
+                <td><input type="number" name="" id="" min="18" max="100"  optional>
+                    <pre> Enter your age </pre>
+                    <img src="/check-mark.png" alt="" id="valid">
+                    <img src="/shape.png" alt="" id="invalid">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Gender</label></td>
+                <td>
+                    <input type="radio" name="Gender" id="" checked><label for="">Male</label>
+                    <input type="radio" name="Gender" id="" checked><label for="">Female</label>
+                    <input type="radio" name="Gender" id="" checked><label for="">Others</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Select Country</label></td>
+                <td><select name="" id="">
+                    <option value="">India</option>
+                    <option value="">USA</option>
+                    <option value="">China</option>
+                    <option value="">South Africa</option>
+                    <option value="">Brazil</option>
+                    <option value="">France</option>
+                     <option value="">Canada</option>
+                    <option value="">UK</option>
+                    <option value="">Germany</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="">Upload Profile</label></td>
+                <td><input type="file" name="" id=""></td>
+            </tr>
+        </table>
+        <br>
+        <button id="reset" type="reset"> Reset </button>
+        <br><br>
+        
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Course Details</legend>
+            <table>
+            <tr>
+                <td><label for="">Select Country</label></td>
+                <td><select name="" id="">
+                    <option value="">Java Full Stack</option>
+                    <option value="">Python Full Stack</option>
+                    <option value="">Frontend</option>
+                    <option value="">Cybersecurity</option>
+                    <option value="">Digital Marketing</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label for="">Course Mode</label></td>
+                <td>
+                    <input type="radio" name="mode" id="" checked><label for="">Online</label>
+                    <input type="radio" name="mode" id="" checked><label for="">Offline</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="">Institute Name</label></td>
+                <td><input type="text" name="" value="TAP ACADEMY" id="" readonly></td>
+            </tr>
+            <tr>
+                <td><label for="">Comments</label></td>
+                <td><textarea name="" id="" rows="4" cols="40" ></textarea></td> 
+            </tr>
+        </table>
+    </fieldset>
+    <br>
+    <button id="submit" type="submit"> Submit </button>
+    </form>
+    </div>
+</body>
+</html>
